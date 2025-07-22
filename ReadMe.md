@@ -1,6 +1,7 @@
 # VHDL + MATLAB: I/Q Signal Reader/Writer Testbench
 
-This repository provides a practical testbench setup to simulate I/Q (In-phase and Quadrature) signal handling between VHDL and MATLAB. It includes:
+This repository provides a practical testbench setup to simulate I/Q (In-phase and Quadrature) signal handling between VHDL and MATLAB.   
+It includes:
 
 - 📂 **VHDL**: File-based I/Q signal reader and writer with generic configurability.
 - 📂 **Matlab**: Scripts to load and save I/Q data as complex arrays compatible with the VHDL format.
@@ -9,7 +10,7 @@ This repository provides a practical testbench setup to simulate I/Q (In-phase a
 
 ## 📁 Folder Structure
 
-/VHDL
+/VHDL    
 ├── file_reader.vhd -- Reads I/Q from text (I0, Q0, I1, Q1...)  
 ├── file_writer.vhd -- Writes I/Q to text (one value per line)  
 └── tb_reader_writer.vhd -- Testbench connecting reader & writer  
